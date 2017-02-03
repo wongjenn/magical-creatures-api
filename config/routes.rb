@@ -5,6 +5,7 @@ scope module: 'api'do
 
   namespace :v1 do
     resources :regions
+    resources :folklores
   end
 end
 
