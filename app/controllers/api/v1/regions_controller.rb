@@ -7,23 +7,24 @@ module Api::V1
     end
 
     def create
-      "create"
+      @region = Region.create(name: params[:region][:name])
+      render json: @region
     end
 
     def show
       @region = Region.find(params[:id])
-      render json: @region
+      render json: @region, serializer: RegionShowSerializer
     end
 
     def update
-      "update"
+      @region = Region.find(params[:id])
+      @region.update(params[:name])
     end
 
     def destroy
-      "destroy"
+      @region = Region.find(params[:id])
+      @region.destroy
     end
-
-
 
   end
 end
