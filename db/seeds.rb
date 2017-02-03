@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+5.times do
+  Region.create(name: Faker::LordOfTheRings.unique.location)
+end
+
+10.times do
+  MagicalCreature.create(name: Faker::Ancient.unique.titan, description: Faker::StarWars.wookie_sentence)
+end
+
+50.times do
+  Folklore.create(reference: Faker::Hipster.sentences(1), region: Region.all.sample, magical_creature: MagicalCreature.all.sample)
+end
