@@ -1,6 +1,6 @@
 # README
 
-Pair Programming: Yomi Lajide and Jennifer Wong.
+Pair Programming: Yomi Lajide(https://github.com/Joll59) and Jennifer Wong(https://github.com/wongjenn)
 To create an Api using Ruby on Rails, ActiveRecord Serializers and CORS.
 The database is seeded with data taken from Wikipedia.
 
