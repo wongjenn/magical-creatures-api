@@ -1,19 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
+Pair Programming: Yomi Lajide and Jennifer Wong.
+To create an Api using Ruby on Rails, ActiveRecord Serializers and CORS.
+The database is seeded with data taken from Wikipedia.
 
 * How to run the test suite
 
