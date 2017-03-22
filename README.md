@@ -6,10 +6,9 @@ Create an Api using Ruby on Rails, Restful Routes, ActiveRecord Serializers and 
 
 The database is seeded with data taken from Wikipedia.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run:
+in Terminal:
+- bundle install
+- rails s
+in Browser:
+- http://localhost:3000/v1/magical_creatures
