@@ -6,9 +6,11 @@ Create an Api using Ruby on Rails, Restful Routes, ActiveRecord Serializers and 
 
 The database is seeded with data taken from Wikipedia.
 
-To run:
-in Terminal:
+<p>To run:</p>
+<ul> in Terminal:
 <li> bundle install </li>
 <li> rails s </li>
-in Browser:
+</ul>
+<ul>in Browser:
 <li> http://localhost:3000/v1/magical_creatures </li>
+</ul>
