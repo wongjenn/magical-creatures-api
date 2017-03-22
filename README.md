@@ -9,6 +9,6 @@ The database is seeded with data taken from Wikipedia.
 To run:
 in Terminal:
 - bundle install
-- rails s
+- rails s </br>
 in Browser:
 - http://localhost:3000/v1/magical_creatures
