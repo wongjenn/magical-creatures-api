@@ -12,6 +12,6 @@ To run:
 <li> rails s </li>
 </ul>
 <ul>in Browser:
-<li> http://localhost:3000/v1/magical_creatures </li>
-<li> http://localhost:3000/v1/magical_creatures/:id </li>
+<li> http://localhost:3000/api/v1/magical_creatures </li>
+<li> http://localhost:3000/api/v1/magical_creatures/:id </li>
 </ul>
