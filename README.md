@@ -9,9 +9,12 @@ The database is seeded with data taken from Wikipedia.
 To run:
 <ul> in Terminal:
 <li> bundle install </li>
+<li> rake db:create </li>
+<li> rake db:migrate </li>
+<li> rake db:seed </li>
 <li> rails s </li>
 </ul>
 <ul>in Browser:
-<li> http://localhost:3000/v1/magical_creatures </li>
-<li> http://localhost:3000/v1/magical_creatures/:id </li>
+<li> http://localhost:3000/api/v1/magical_creatures </li>
+<li> http://localhost:3000/api/v1/magical_creatures/:id </li>
 </ul>
