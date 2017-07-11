@@ -4,17 +4,9 @@ Pair Programming: [Yomi Lajide](https://github.com/Joll59) and [Jennifer Wong](h
 
 Create an Api using Ruby on Rails, Restful Routes, ActiveRecord Serializers and CORS in a few hours.
 
+The API is about magical creatures and their folklores.
+
+Please click [here](https://magical-creatures-api.herokuapp.com/api/v1/magical_creatures) for demo.
+
 The database is seeded with data taken from Wikipedia.
 
-To run:
-<ul> in Terminal:
-<li> bundle install </li>
-<li> rake db:create </li>
-<li> rake db:migrate </li>
-<li> rake db:seed </li>
-<li> rails s </li>
-</ul>
-<ul>in Browser:
-<li> http://localhost:3000/api/v1/magical_creatures </li>
-<li> http://localhost:3000/api/v1/magical_creatures/:id </li>
-</ul>
